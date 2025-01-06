@@ -157,7 +157,8 @@
     flex-direction: column;
     padding: 4rem;
     width: 50%;
-    font-family: Inter;
+    font-family: var(--primary-font);
+    color: var(--text-white);
 font-size: 34px;
 font-weight: 500;
 line-height: 43.2px;
@@ -223,8 +224,9 @@ text-decoration-skip-ink: none;
 
   }
   .Title{
-    font-family: Inter;
-    font-size: 34px;
+    font-family: var(--primary-font);
+    color: var(--text-white);
+    font-size: 111px;
     font-weight: 434px;
     line-height: 120px;
     padding-left:50px;
