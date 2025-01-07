@@ -16,7 +16,14 @@ import other1 from "../assets/other01.jpg.png";
 import other3 from"../assets/other03.jpg.png";
 import other4 from"../assets/other04.jpg.png";
 import div3 from "../assets/div (3).png";
-
+import div4 from "../assets/div (4).png"; 
+import help from "../assets/help01.jpg.png";
+import div5 from "../assets/div (5).png";
+import div6 from "../assets/div (6).png";
+import div7 from "../assets/div (7).png";
+import about1 from "../assets/about01.jpg.png";
+import about2 from "../assets/about02.jpg.png";
+import about3 from "../assets/about03.jpg.png";
 
 
 import "../css/Home.css";
@@ -180,6 +187,52 @@ const Home = () => {
         <button className="nav-button next" onClick={nextSlide}>→</button>
       </div>
     </div>
+      </div>
+      <div className="container-6">
+      
+          <img className="div4" src={div4} alt="infinity" />
+          <div className="Title">
+            <h2>How we can help grow</h2>
+          </div>
+          <img className="glow1" src={glow} alt="glow effect" />
+          <div className='product-content'>
+            <div className="product-content-left">
+              <h2>Product Clarity</h2>
+              <p>UI/UX Design</p>
+              <p>Maintain Process</p>
+            </div>
+            <div className="product-content-right">
+              <img className="help" src={help} alt="help" />
+              <div className="product-content-right-text">
+              <h2>Are you at the idea stage? we will help you identify he critical MVP product scope</h2>
+              <p>product goal & vision</p>
+              <p>brand price</p>
+              <p>product company</p>
+              </div>
+            </div>
+
+          </div>
+      </div>
+      <div className="container-7">
+          <img className="div5" src={div5} alt="div5" />
+          <img className="about1" src={about1} alt=" about1" />
+          <img className="about3" src={about3} alt=" about3" />
+          <div className="about-content-text">
+          <div className="Title">
+            <h2>About</h2>
+          </div>
+            <p> Team of product and brand designers that are really passionate about blockchain technology and good design. We are not just UI freaks! We advocate users for better product experience and common sense.</p>
+          <div className="more-about-us">
+
+            <h2>More about us → </h2>
+          </div>
+          </div>
+      </div>
+      <div className="container-8">
+          <img className='div7' src={div7} alt="div7" />
+          <img className="div6" src={div6} alt=" div6" />
+          <img className="about2" src={about2} alt=" about2" />
+          {/* <img className="about3" src={about3} alt=" about3" /> */}
       </div>
     </div>
   );

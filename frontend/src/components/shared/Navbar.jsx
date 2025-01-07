@@ -3,7 +3,7 @@ import logo from '../../assets/logo.svg.png';
 import '../../css/Navbar.css';
 const Navbar =()=>{
     return (
-        <div>
+        <div className='navbar'>
             <div className='logo'>
                 <img src={logo} alt='logo' />
             </div>
